@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "baseUrl": "../vueapp-test/my-app",
+    "moduleResolution": "node",
+    "paths": {
+      "@/*": [
+        "../vueapp-test/my-app/src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  }
+}
